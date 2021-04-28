@@ -14,7 +14,7 @@ import streamlit as st
 import math
 import pydeck as pdk
 
-auto = pd.read_csv('C:\\Users\\wangz\\Desktop\\CS230\\finalproject\\cl_used_cars_7000_sample.csv')
+auto = pd.read_csv('cl_used_cars_7000_sample.csv')
 
 #prepare for creating the map
 map_data = auto[['lat','long','url']]
